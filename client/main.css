@@ -1,0 +1,14 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+.loginbutton{
+  text-align:left;
+}
+.form{
+  text-align: center;
+}
+.submitbutton{
+  color:blue;
+   
+}

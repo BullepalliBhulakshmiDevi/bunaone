@@ -1,0 +1,25 @@
+<head>
+  <title>first</title>
+</head>
+
+<body>
+  <h1>Know About You!!</h1>
+   <div class='loginbutton'>
+   {{> loginButtons }}
+   </div>
+   <div class='form'>
+   <form class='task'>
+   <label for='question'>Describe me in a single word</label>
+   <input type='text' id='question' size="50" required>
+   <br>
+   <br>
+   <input type="submit" value="Submit" class='submitbutton'>
+   </form>
+   </div>
+  {{#each content}}
+  {{> content_display}}
+  {{/each}}
+</body>
+<template name="content_display">
+    <li>{{content}}</li>
+  </template>
